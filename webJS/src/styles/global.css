@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e5e5e5;
+  overflow: hidden;
+}
+
+a,
+body,
+input,
+button,
+textarea,
+select {
+  font: 600 18px Poppins, sans-serif;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+}

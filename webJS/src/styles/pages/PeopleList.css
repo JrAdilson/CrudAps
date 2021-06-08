@@ -1,0 +1,84 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color:rgb(189, 66, 66);
+  padding: 10px 80px;
+}
+
+.header h1 {
+  color: #fff;
+  font-size: 32px;
+}
+
+.people-list {
+  width: 800px;
+  margin-top: 48px;
+  height: calc(100vh - 120px);
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 16px;
+  overflow: scroll;
+}
+.people-list::-webkit-scrollbar {
+  width: 16px;
+}
+
+.people-list::-webkit-scrollbar-thumb {
+  background: black;
+  border: 6px solid transparent;
+  border-radius: 8px;
+  background-clip: padding-box;
+}
+
+.people-list h2 {
+  color: black;
+}
+
+.table-container {
+  margin-top: 16px;
+}
+
+table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 4px;
+}
+
+th {
+  background-color: #cc5959;
+  font-size: 14px;
+}
+
+td {
+  font-size: 12px;
+  text-align: center;
+  color: #3a3a3a;
+}
+
+.action-button {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.action-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
